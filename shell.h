@@ -24,14 +24,14 @@
 #define CMD_CHAIN3
 
 /* for convert_number() */
-#define CONVERT_LOWERCASE1
-#define CONVERT_UNSIGNED2
+#define CONVERT_LOWERCASE
+#define CONVERT_UNSIGNED
 
 /* 1 if using system getline() */
 #define USE_GETLINE 0
 #define USE_STRTOK 0
 
-#define HIST_FILE".simple_shell_history"
+#define HIST_FILE ".simple_shell_history"
 #define HIST_MAX4096
 
 extern char **environ;
